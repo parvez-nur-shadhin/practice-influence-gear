@@ -188,6 +188,33 @@
     border-radius: 0px;
 }
 
+/* __Footer */
+footer {
+    background-color: navy;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+footer h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+footer p {
+    color: #D9DBE1;
+    font-weight: bold;
+    font-size: 0.875;
+    margin-top: 3px;
+}
+footer .footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
 
 
 /* Media Query Area */
