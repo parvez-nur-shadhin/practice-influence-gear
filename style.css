@@ -168,6 +168,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+     margin-bottom: 100px;
 }
 .featured-content h2 {
     color: #0A0826;
@@ -205,7 +206,7 @@ footer h1 {
 footer p {
     color: #D9DBE1;
     font-weight: bold;
-    font-size: 0.875;
+    font-size: 0.875rem;
     margin-top: 3px;
 }
 footer .footer-logos {
@@ -263,9 +264,12 @@ footer .footer-logos {
         justify-content: center;
     }
     #company-logo img {
-    flex: 0 0 calc(25% - 12px);
-    max-width: 100%;
-    height: auto;
+    flex: 1 1 calc(25% - 20px);
+    width: 50px;
+    line-height:20px;
+    max-height: px;
+    margin-top: 10px;
+    object-fit: contain;
     }   
 
     /* Popular */
@@ -279,6 +283,7 @@ footer .footer-logos {
         justify-content: center;
         align-items: center;
         padding: 16px 20px;
+        margin-bottom: 30px;
     }
     .featured-content {
         text-align: center;
@@ -286,5 +291,8 @@ footer .footer-logos {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    footer {
+        padding: 20px;
     }
 }
