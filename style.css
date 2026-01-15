@@ -159,9 +159,34 @@
 .post img {
     width: 100%;
 }
-
-
-
+/* __Featured */
+#featured {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.featured-content h2 {
+    color: #0A0826;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.featured-content p {
+    color: #6C6C6C;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.featured-img img {
+    width: 100%;
+}
+.featured-content button {
+    border-radius: 0px;
+}
 
 
 
@@ -219,5 +244,20 @@
     /* Popular */
     .post-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Featured */
+    #featured {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 20px;
+    }
+    .featured-content {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
